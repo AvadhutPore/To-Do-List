@@ -1,0 +1,31 @@
+.note-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 40px 0px;
+    gap: 35px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.note-list-btn {
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    min-width: 115px;
+}
+.note-list-edit-btn {
+    background-color: lightgreen;
+}
+.note-list-edit-btn:hover{
+    background-color:#81f981;
+}
+.note-list-delete-btn {
+    background-color: #ff8787fa;
+}
+.note-list-delete-btn:hover {
+    background-color: #ff6e6efa;
+}

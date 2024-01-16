@@ -1,0 +1,14 @@
+<div class="note-list-wrapper">
+    <div class="note-list" *ngFor="let note of notes">
+        <div class="note-items">
+            <h2>{{note.title}}</h2>
+            <p>{{note.content}}</p>
+        </div>
+        <div class="note-btn">
+            <button class="note-list-btn note-list-edit-btn" (click)="editNote(note)">Edit Note</button>
+            <button class="note-list-btn note-list-delete-btn" (click)="deleteNote(note.id)">Delete Note</button>
+        </div>
+    </div>
+</div>
+
+

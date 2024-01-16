@@ -1,0 +1,30 @@
+.form-wrapper {
+   width: 50%;
+}
+.form-field-wrap {
+    padding-bottom: 15px;
+}
+.form-field-wrap label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.form-field-wrap input {
+    width: 94%;
+    padding: 6px 12px;
+}
+.form-field-btn {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 31px;
+    margin-top: 10px;    
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
+.form-field-btn:hover {
+    background-color: #3473e4;
+}

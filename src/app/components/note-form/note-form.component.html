@@ -1,0 +1,14 @@
+<div class="form-wrapper">
+    <h2>Add New Note</h2>
+    <form [formGroup]="noteForm" (ngSubmit)="onSubmit()">
+        <div class="form-field-wrap">
+            <label for="title">Note Title :-</label>
+            <input type="text" name="title" placeholder="Title" formControlName="title">
+        </div>
+        <div class="form-field-wrap">
+        <label for="content">Content :-</label>
+        <input type="text" name="content" placeholder="Content" formControlName="content">
+        </div>
+        <button class="form-field-btn" type="submit">{{ isEditable ? 'Edit Note' : 'Add New Note'}}</button>
+    </form>
+</div>

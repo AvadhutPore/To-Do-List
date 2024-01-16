@@ -1,0 +1,11 @@
+<div class="note-app-wrapper">
+  <div class="container">
+    <h1 class="heading">Create Your Note</h1>
+    <div class="note-form-wrapper">
+      <app-note-form [selectedNote] = "selectedNoteFromParent"></app-note-form>
+    </div>
+    <div class="note-list-wrapper">
+      <app-note-list (selectedNote)="selectedEditableNote($event)"></app-note-list>
+    </div>
+  </div>
+</div>

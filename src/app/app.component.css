@@ -1,0 +1,8 @@
+.note-app-wrapper .container {
+    max-width: 800px;
+    margin: auto;
+}
+.note-app-wrapper .heading {
+    text-align: center;
+    padding-bottom: 25px;
+}
